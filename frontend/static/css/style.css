@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap');
+
+*{
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    background-color: #555;
+  }
+  
+
+#app {
+    margin: 1em;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+a {
+    color: #009579;
+}  
+/* style.css */
+
+.movie-list-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-item {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f2f2f2;
+    flex: 33%;
+  }
+  
+  .movie-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: ease 0.3s;
+    font-size: 17px;
+  }
+  
+  .movie-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .movie-link:hover {
+    color: #b92525;
+  }
+  
+  .header{
+    text-align: center;
+    margin: 30px 0 30px 0;
+  }
+
+  /* style.css */
+
+.movie-detail-container {
+    text-align: center;
+  }
+  
+  .movie-title {
+    font-size: 24px;
+    margin: 30px 0 30px 0;
+  }
+  
+  .movie-poster {
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .movie-info {
+    margin-bottom: 10px;
+  }
+  
+  .movie-info strong {
+    font-weight: bold;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .back-link:hover {
+    color: #555;
+  }
+  
+
+
+  /* style.css */
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .home-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .home-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .home-description a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .home-description a:hover {
+    color: #555;
+  }
+  
+
